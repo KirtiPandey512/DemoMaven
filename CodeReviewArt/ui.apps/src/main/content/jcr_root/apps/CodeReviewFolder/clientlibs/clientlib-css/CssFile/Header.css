@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/content/dam/CodeReviewContent/Images/toy.jpg);
+	background-size:100% 590px;
+    background-repeat:no-repeat;
+}
+nav{
+	
+	width:100%;
+	overflow:auto;
+}
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 0;
+     background-color: #333;
+    width: 100%;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+h1{
+	text-align:center;
+	margin-top:125px;
+	font: italic bold 90px/95px forte, serif;
+	color:black;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+    height:20px;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}

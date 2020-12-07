@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+  <sly data-sly-call="${clientlib.css @ categories='CodeReviewCssId.head'}"/>
+<sly data-sly-use.header="CodeReviewPkg.core.models.HeaderClass">
+<meta charset="ISO-8859-1">
+<title>Welcome</title>
+</head>
+<body>
+
+<nav>
+<ul>
+
+<li><a >${header.login}</a></li>
+<li><a >${header.register}</a></li>
+<li><a>${header.contactus}</a></li>
+<li><a>${header.contactus}</a></li>
+</ul>
+</nav>
+<h1 style="color:black;font: italic 80px/85px Brush Script MT, serif;">${header.title}</h1>
+</body>
+
+
+
+
+</html>
